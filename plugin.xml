@@ -105,18 +105,6 @@
             <framework src="CoreImage.framework" />
             <framework src="AVFoundation.framework" />
 
-            <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-                <string>This app requires access to the camera to take photos.</string>
-            </config-file>
-
-            <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-                <string>This app requires access to the photo library to display images.</string>
-            </config-file>
-
-            <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-                <string>This app requires access to your location when in use to include location info in photo metadata.</string>
-            </config-file>
-                  
      </platform>
 
     <!-- browser -->
